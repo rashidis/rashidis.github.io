@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shima Rashidi - Portfolio"
+title                    : "Shima Rashidi, PHD"
 title_separator          : "-"
-name                     : &name "Shima Rashidi"
+name                     : &name "Shima Rashidi, PHD"
 description              : &description "Senior Data Scientist/ Machine learning Engineer"
 url                      : https://rashidis.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -22,7 +22,7 @@ repository               : "rashidis/rashidis.github.io"
 author:
   # Biographic information
   avatar           : "profile.jpg"
-  name             : "Shima Rashidi"
+  name             : "Shima Rashidi, PHD"
   pronouns         : "she/her"  
   bio              : "Senior Data Scientist/ Machine learning Engineer"
   location         : "London, UK"
