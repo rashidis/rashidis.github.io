@@ -72,4 +72,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-For more Info. check my LinkedIn account: ([Link](https://www.linkedin.com/in/aref-miri-rekavandi-41820698/))
+For more Info. check my LinkedIn account: ([Link](https://www.linkedin.com/in/shima-rashidiiiiiii/))

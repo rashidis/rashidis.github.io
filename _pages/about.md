@@ -51,4 +51,4 @@ Selected Projects
 
 For more info
 ------
-Check my LinkedIn account: ([Link](https://www.linkedin.com/in/aref-miri-rekavandi-41820698/))
+Check my LinkedIn account: ([Link](https://www.linkedin.com/in/shima-rashidiiiiiii/))
