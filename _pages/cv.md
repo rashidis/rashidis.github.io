@@ -9,48 +9,61 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
-
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* October 2022- April 2024: Senior Data Scientist
+  * AGL Energy
+  * Duties includes: 
+    * Managing and mentoring a team of 7 data scientists for end-toend data science and MLOps solutions, from the initial pitch and data preparation to post-deployment.
+    * Designing, developing, and successfully delivering over 10 distinct scalable cloud-based data-driven solutions in production environments. 
+    * Conveying the results and driven insights to the stakeholders.
+  * Achievements: 
+    * Improved multiple factors within AGL by initiating several Gen-Al proof of concepts and deployed them to production.
+    * Achieved a 50% reduction of pilot-to-production duration by developing commercially viable in-house Python packages and toolkits aimed at enhancing team performance and streamlining the data science experience.
+    * Decreased the MTTR (Mean Time to Resolve) of ML models' maintenance and support tickets by 70% through establishing logging and model monitoring pipelines.
+    * Eliminated ingestion pipeline failures entirely by establishing a DataBricks feature store for the organization, integrating PySpark, MLOps stacks, asset bundles, and Unity catalogue.
+    * Attained a 40% reduction in service desk time allocation using advanced NLP and LLM techniques.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* June 2021 - Oct 2022: Data Scientist Researcher
+  * RMIT University/ Ford Company
+  * Duties included: Led a team of 5, including engineers from Ford company in the US and researchers from RMIT  University, in implementing a versatile quality control technology applicable to various problems
+  * Achievements: Increased the company revenue via efficient detection of the defects in industrial parts using domain adaptation method utilizing ResNet50 as the deep neural network backbone, PyTorch, OpenCV, Torch-vision, Scikit-learn
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+
+* Janeuaray 2021 - June 2021: Machine Learning Specialist
+  * [Keylead Health](https://keyleadhealth.com)
+  * Duties included: Collaborated in a 5-member team comprising data engineers and clinicians to analyze healthcare data, aiming to enhance the clinical trial and medical research processes.
+
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Machine Learning and Data Science:
+  * Machine learning concepts: Classification, Regression, Clustering, Transfer Learning, Time Series Forecasting.
+  * Natural Language Processing: Foundational and Generative LLMs, Generative AI, Langchain, RAG.
+  * Deep Neural Networks: CNNs, RNNs, Attention, Transformers (Text, Vision, Multi-modal), LSTM.
+  * Python packages and frameworks: PyTorch, NLTK, Scikit-learn, SpaCy, OpenCV, SciPy, NumPy, Pandas
+
+* MLOps in Cloud Platforms:
+  *	Azure: Azure resources, Blob Storage, ML Studio, Monitoring, Logging, Online and Batch Endpoints, DevOps practices, Managed Feature Store, Azure Cognitive Services.
+  * Databricks: MLOps-Stacks, Unity Catalogue, Feature Store, MLflow.
+  * Vector Databases: MongoDB, Faiss.
+
+* Software Engineering Practices and Tools: Git, Continuous Integration (CI), Agile, Design Patterns 
+
+* Big Data: SQL (MySQL) and PySpark, Dask - Functional knowledge.
+
+* Soft Skills: Stakeholder Management, Critical Thinking, Agile Mindset, Teamwork.
+
+Education
+======
+* Ph.D in Computer Science- Machine learning, University of Melbourne, 2021
+* M.S. in Digital Electronics- Cloud Computing, AmirKabir University of Technology, 2016
+* B.S. in Electrical Engineering- Electronics, Iran University of Science and Technology, 2009
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
 Teaching
@@ -59,6 +72,4 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+For more Info. check my LinkedIn account: ([Link](https://www.linkedin.com/in/aref-miri-rekavandi-41820698/))
