@@ -1,12 +1,10 @@
 ---
-title: "Paper Title Number 1"
+title: "A hybrid heuristic queue based algorithm for task assignment in mobile cloud"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+excerpt: 'Shima Rashidi and Saeed Sharifian'
+date: 2017-03-01
+venue: 'Future Generation Computer Systems'
 ---
+[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0167739X16304022)
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This paper presents a novel algorithm for task assignment in mobile cloud computing environments in order to reduce offload duration time while balancing the cloudlets’ loads. The algorithm is proposed for a two-level mobile cloud architecture, including public cloud and cloudlets. The algorithm models each cloud and cloudlet as a queue to consider cloudlets’ limited resources and study response time more accurately. Performance factors and resource limitations of cloudlets such as waiting time for clients in cloudlets can be determined using queue models. We propose a hybrid genetic algorithm (GA) - Ant Colony Optimization (ACO) algorithm to minimize mean completion time of offloaded tasks for the whole system. Simulation results confirm that the proposed hybrid heuristic algorithm has significant improvements in terms of decreasing mean completion time, total energy consumption of the mobile devices …
