@@ -1,12 +1,10 @@
 ---
-title: "Paper Title Number 2"
+title: "Cloudlet dynamic server selection policy for mobile task off-loading in mobile cloud computing using soft computing techniques"
 collection: publications
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+excerpt: 'Shima Rashidi and Saeed Sharifian'
+date: 2017-09-01
+venue: 'The Journal of Supercomputing'
 ---
+[Paper](https://link.springer.com/article/10.1007/s11227-017-1983-0)
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Wide acceptance of mobile phones and their resource hungry applications have highlighted resource limitations of mobile devices. In this regard, cloud computing has provided mobile phones with unlimited resources in order to help them overcome their constraints and enable them to support wider range of applications; so, mobile devices can outsource their tasks to public or local clouds. To accommodate to exponential growth of requests, user requests should be distributed to different cloudlets and then transparently and dynamically redirected to the servers according to the latest network and server status. Therefore, finding the best place to off-load is vital and crucial to both functionality and performance of the system. However, accurate and timely parameters of network and servers’ status are improbable to achieve, so the traditional algorithms cannot perform effectively and fully efficient. As a solution in this paper, an adaptive neuro-fuzzy inference system is proposed and trained to assign tasks to the servers efficiently. The trained system is robust to imprecise context information and is tolerable measurement noise and errors. We have considered improving both system performance and user quality of service parameters in this paper. Simulation results demonstrate that, compared with other server selection schemes, the proposed scheme can achieve higher resource utilization (utilization is a percentage of time that a server is busy doing something), provide better user-perceived quality of service, and efficiently deal with network dynamics. Simulation results show that our proposed algorithm excels over the compared works in terms of performance, at the best case about 30% and at the worst case about 8.93%.
