@@ -2,7 +2,7 @@
 title: "Optimal visual search based on a model of target detectability in natural images"
 collection: publications
 excerpt: 'Shima Rashidi, Krista Ehinger, Andrew Turpin, Lars Kulik'
-date: 2020
+date: 2020-10-01
 venue: 'Advances in Neural Information Processing Systems'
 ---
 [Paper](https://proceedings.neurips.cc/paper_files/paper/2020/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf)
