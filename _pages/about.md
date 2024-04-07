@@ -47,6 +47,28 @@ Soft Skills: Stakeholder Management, Critical Thinking, Agile Mindset, Teamwork.
 
 Selected Projects
 ======
+<table >
+<tbody>
+<tr> <td style="width:200px; height=120px; vertical-align: top;"> <img style="float: left; margin-right: 10px " src="https://rashidis.github.io/images/nuerips2020.png" width="200px" height="120px" border="2px solid #bbb"> </td>
+<td style= "height=120px; vertical-align: top;"> <p>
+<strong> Optimal visual search based on a model of target detectability in natural images </strong>  <br> Hao Tang, <span style="text-decoration:underline">Shima Rashidi</span>, DKrista Ehinger, Andrew Turpin, Lars Kulik<br>
+<i> <strong>Advances in Neural Information Processing Systems</strong>, 2020 </i> <br>
+<a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf" style="color: green; text-decoration: none; "><i class="fas fa-fw fa-external-link-square-alt zoom"></i></a> <a href="https://github.com/rashidis/bio_based_detectability" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Python Code</a> </p> </td> 
+</tr>
+</tbody>
+</table>
+
+<table >
+<tbody>
+<tr> <td style="width:200px; height=120px; vertical-align: top;"> <img style="float: left; margin-right: 10px " src="https://arekavandi.github.io/images/BPOSE.JPG" width="200px" height="120px" border="2px solid #bbb"> </td>
+<td style= "height=120px; vertical-align: top;"> <p>
+<strong> B-Pose: Bayesian Deep Network for Camera 6-DoF Pose Estimation from RGB Images </strong>  <br> <span style="text-decoration:underline">A.M. Rekavandi</span>, F. Boussaid, A.K. Seghouane, & M. Bennamoun<br>
+<i> <strong>IEEE Robotics and Automation Letters</strong>, 2023 </i> <br>
+<a href="https://ieeexplore.ieee.org/abstract/document/10242363" style="color: green; text-decoration: none; "><i class="fas fa-fw fa-external-link-square-alt zoom"></i>IEEE</a>
+<a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.21951398.v1" style="color: green; text-decoration: none; "><i class="fas fa-fw fa-file-pdf zoom"></i>PDF</a> <a href="https://github.com/arekavandi/BPose" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Python Code</a> </p> </td> 
+</tr>
+</tbody>
+</table>
 
 
 For more info
