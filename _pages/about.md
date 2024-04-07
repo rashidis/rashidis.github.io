@@ -93,9 +93,11 @@ This repository contains the code and documentation for a data science project f
 <strong> Optimal visual search based on a model of target detectability in natural images </strong>  <br> Hao Tang, <span style="text-decoration:underline">Shima Rashidi</span>, DKrista Ehinger, Andrew Turpin, Lars Kulik<br>
 <i> <strong>Advances in Neural Information Processing Systems</strong>, 2020 </i> <br>
 <a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf" style="color: green; text-decoration: none; "><i class="fas fa-fw fa-external-link-square-alt zoom"></i></a> <a href="https://github.com/rashidis/bio_based_detectability" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Python Code</a> <br>
-<i>  Developed a biological model of human vision using deep neural networks (Alexnet, Resnet, VGG16) and
-transfer learning using PyTorch and OpenCV in Python (results published in Neurips2020, Pattern Recognition
-Journal, Scientific Reports Journal). </i> <br>
+<i>  Developed a biological model of human vision using deep neural networks and transfer learning (results published in Neurips2020, Pattern Recognition
+Journal, Scientific Reports Journal). <br>
+<strong> Techniques: Deep Neural Networks, CNNs(Alexnet, Resnet, VGG16), transfer learning, Bayesian <br>
+<strong> Technologies: PyTorch and OpenCV <br>
+</i> <br>
 </p> </td> 
 </tr>
 </tbody>
