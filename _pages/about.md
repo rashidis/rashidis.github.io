@@ -49,23 +49,54 @@ Selected Projects
 ======
 <table >
 <tbody>
-<tr> <td style="width:200px; height=120px; vertical-align: top;"> <img style="float: left; margin-right: 10px " src="https://rashidis.github.io/images/nuerips2020.png" width="200px" height="120px" border="2px solid #bbb"> </td>
+<tr> <td style="width:200px; height=120px; vertical-align: top;"> <img style="float: left; margin-right: 10px " src="https://rashidis.github.io/images/AI-ML-temp-repo.png" width="200px" height="120px" border="2px solid #bbb"> </td>
 <td style= "height=120px; vertical-align: top;"> <p>
-<strong> Optimal visual search based on a model of target detectability in natural images </strong>  <br> Hao Tang, <span style="text-decoration:underline">Shima Rashidi</span>, DKrista Ehinger, Andrew Turpin, Lars Kulik<br>
-<i> <strong>Advances in Neural Information Processing Systems</strong>, 2020 </i> <br>
-<a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf" style="color: green; text-decoration: none; "><i class="fas fa-fw fa-external-link-square-alt zoom"></i></a> <a href="https://github.com/rashidis/bio_based_detectability" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Python Code</a> </p> </td> 
+<strong> AI/ML Project Template Repository </strong>  <br>
+This repository is designed to serve as an initial structured template for AI and machine learning projects. Whether you're a beginner or an experienced practitioner, this template provides a solid starting point for organizing your project files, documentation, and workflows. <br> 
+<a href="https://github.com/rashidis/AI-ML-temp-repo" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Repo link- Pyhton</a> <br>
 </tr>
 </tbody>
 </table>
 
 <table >
 <tbody>
-<tr> <td style="width:200px; height=120px; vertical-align: top;"> <img style="float: left; margin-right: 10px " src="https://arekavandi.github.io/images/BPOSE.JPG" width="200px" height="120px" border="2px solid #bbb"> </td>
+<tr> <td style="width:200px; height=120px; vertical-align: top;"> <img style="float: left; margin-right: 10px " src="https://rashidis.github.io/images/llm_serving.jpg" width="200px" height="120px" border="2px solid #bbb"> </td>
 <td style= "height=120px; vertical-align: top;"> <p>
-<strong> B-Pose: Bayesian Deep Network for Camera 6-DoF Pose Estimation from RGB Images </strong>  <br> <span style="text-decoration:underline">A.M. Rekavandi</span>, F. Boussaid, A.K. Seghouane, & M. Bennamoun<br>
-<i> <strong>IEEE Robotics and Automation Letters</strong>, 2023 </i> <br>
-<a href="https://ieeexplore.ieee.org/abstract/document/10242363" style="color: green; text-decoration: none; "><i class="fas fa-fw fa-external-link-square-alt zoom"></i>IEEE</a>
-<a href="https://www.techrxiv.org/doi/full/10.36227/techrxiv.21951398.v1" style="color: green; text-decoration: none; "><i class="fas fa-fw fa-file-pdf zoom"></i>PDF</a> <a href="https://github.com/arekavandi/BPose" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Python Code</a> </p> </td> 
+<strong> LLM-serving </strong>  <br>
+This repository is ispired by the course Efficiently Serving LLMs from <a href="https://learn.deeplearning.ai/courses/efficiently-serving-llms" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Efficiently serving llms from DeepLearning.AI</a> for an efficient LLM serving using transformers and pytorch. The code for several different versions of LLM serving is implimented so they can be chosen and used based on prefrences and capacity.<br>
+<strong> Techniques: KV cashing, Batching, Continues Batching <br>
+<strong> Technologies: Transformers, Gpt2, Pytorch, Tokenizer <br>
+<a href="https://github.com/rashidis/LLM-serving" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Repo link- Pyhton</a> <br>
+</tr>
+</tbody>
+</table>
+
+
+<table >
+<tbody>
+<tr> <td style="width:200px; height=120px; vertical-align: top;"> <img style="float: left; margin-right: 10px " src="https://rashidis.github.io/images/income.png" width="200px" height="120px" border="2px solid #bbb"> </td>
+<td style= "height=120px; vertical-align: top;"> <p>
+<strong> Income-Level-Prediction-US-Census-binary-classification </strong>  <br>
+This repository has been established for a technical assessment assignment during an interview process. The goal is to deliver outcomes for a stakeholder presentation.<br>
+This repository contains the code and documentation for a data science project focused on predicting income levels based on demographic and economic data. The project aims to address a binary classification problem, determining whether an individual's income exceeds $50,000. <br> 
+<strong> Techniques: Binary Classification, Feature selection, EDA, Model Selection, Hyper prarmeter tuning <br>
+<strong> Technologies: Scikit-learn, pandas, scipy, seaborn, matplotlib <br>
+<a href="https://github.com/rashidis/Income-Level-Prediction-US-Census-binary-classification" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Repo link- Pyhton</a> <br>
+</tr>
+</tbody>
+</table>
+
+<table >
+<tbody>
+<tr> <td style="width:200px; height=120px; vertical-align: top;"> <img style="float: left; margin-right: 10px " src="https://rashidis.github.io/images/nuerips2020.png" width="200px" height="120px" border="2px solid #bbb"> </td>
+<td style= "height=120px; vertical-align: top;"> <p>
+<strong> Optimal visual search based on a model of target detectability in natural images </strong>  <br> Hao Tang, <span style="text-decoration:underline">Shima Rashidi</span>, DKrista Ehinger, Andrew Turpin, Lars Kulik<br>
+<i> <strong>Advances in Neural Information Processing Systems</strong>, 2020 </i> <br>
+<a href="https://proceedings.neurips.cc/paper_files/paper/2020/file/691dcb1d65f31967a874d18383b9da75-Paper.pdf" style="color: green; text-decoration: none; "><i class="fas fa-fw fa-external-link-square-alt zoom"></i></a> <a href="https://github.com/rashidis/bio_based_detectability" style="color: green; text-decoration: none; "><i class="fab fa-fw fa-github zoom"></i>Python Code</a> <br>
+<i>  Developed a biological model of human vision using deep neural networks (Alexnet, Resnet, VGG16) and
+transfer learning using PyTorch and OpenCV in Python (results published in Neurips2020, Pattern Recognition
+Journal, Scientific Reports Journal). </i> <br>
+</p> </td> 
 </tr>
 </tbody>
 </table>
