@@ -254,7 +254,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
   </form>
 </div>
 
-<script>
+script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
 }
@@ -262,7 +262,26 @@ function openForm() {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
+
+function sendMessage(event) {
+  event.preventDefault(); // Prevent form submission
+  var userMessage = document.getElementById("userMsg").value;
+  showMessage("You: " + userMessage);
+  // Simulate bot response (replace this with actual bot response)
+  setTimeout(function() {
+    showMessage("Me: Chat bot build is in progress");
+  }, 500);
+}
+
+function showMessage(message) {
+  var chatContainer = document.createElement("div");
+  chatContainer.classList.add("message-container");
+  chatContainer.innerHTML = "<div class='message'>" + message + "</div>";
+  document.getElementById("myForm").appendChild(chatContainer);
+}
 </script>
 
 </body>
 </html>
+
+
