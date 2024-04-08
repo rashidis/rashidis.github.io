@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shima Rashidi"
+title                    : "Shima Rashidi, PHD"
 title_separator          : "-"
 name                     : &name "Shima Rashidi, PHD"
 description              : &description "Senior Data Scientist/ Machine learning Engineer"
@@ -29,9 +29,10 @@ author:
   employer         : "Looking for work"
   uri              : # URL
   email            : "Shima.rashidi7@gmail.com" 
+  github           : "rashidis"
+
 
   # Academic websites
-  github           : "rashidis"
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=Kq7qrmwAAAAJ&hl=en&oi=ao"
   impactstory      : # URL
