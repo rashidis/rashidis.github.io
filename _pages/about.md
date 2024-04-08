@@ -236,10 +236,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <body>
 
 <h2>Popup Chat Window</h2>
-<p>Click on the button at the bottom of this page to open the chat form.</p>
-<p>Note that the button and the form is fixed - they will always be positioned to the bottom of the browser window.</p>
+<p>If you want to chat with the bot version of Shima, click on the chat botton on the lower right corner.</p>
+<p>The Chatbot is using an LLM model, RAG and Faiss to retrieve information from my CV and portfolio.</p>
+<p>Developed by me as a showcase of RAG-based LLM models :) .</p>
 
-<button class="open-button" onclick="openForm()">Chat</button>
+<button class="open-button" onclick="openForm()">Chat with Shima</button>
 
 <div class="chat-popup" id="myForm">
   <form action="/action_page.php" class="form-container">
