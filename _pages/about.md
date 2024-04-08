@@ -243,18 +243,20 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <button class="open-button" onclick="openForm()">Chat with Shima</button>
 
 <div class="chat-popup" id="myForm">
-  <form action="/action_page.php" class="form-container">
+  <form action="#" class="form-container" onsubmit="sendMessage(event)">
     <h1>Chat</h1>
 
     <label for="msg"><b>Message</b></label>
-    <textarea placeholder="Type message.." name="msg" required></textarea>
+    <textarea id="msgInput" placeholder="Type message.." name="msg" required></textarea>
+
+    <div id="chatHistory"></div>
 
     <button type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
 
-script>
+<script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
 }
@@ -264,22 +266,23 @@ function closeForm() {
 }
 
 function sendMessage(event) {
-  event.preventDefault(); // Prevent form submission
-  var userMessage = document.getElementById("userMsg").value;
-  showMessage("You: " + userMessage);
-  // Simulate bot response (replace this with actual bot response)
+  event.preventDefault();
+  var message = document.getElementById("msgInput").value;
+  appendMessage("You: " + message);
+  document.getElementById("msgInput").value = "";
   setTimeout(function() {
-    showMessage("Me: Chat bot build is in progress");
+    appendMessage("Me: Chat bot build is in progress");
   }, 500);
 }
 
-function showMessage(message) {
-  var chatContainer = document.createElement("div");
-  chatContainer.classList.add("message-container");
-  chatContainer.innerHTML = "<div class='message'>" + message + "</div>";
-  document.getElementById("myForm").appendChild(chatContainer);
+function appendMessage(message) {
+  var chatHistory = document.getElementById("chatHistory");
+  var messageElement = document.createElement("p");
+  messageElement.textContent = message;
+  chatHistory.appendChild(messageElement);
 }
 </script>
+
 
 </body>
 </html>
