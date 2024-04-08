@@ -254,6 +254,14 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </div>
 
 <script>
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+
 function sendMessage(event) {
   event.preventDefault(); // Prevent the default form submission
   
@@ -263,12 +271,13 @@ function sendMessage(event) {
   // Do something with the message, for example, send it via AJAX to a server
   
   // Clear the textarea
-  document.getElementById("msgInput").value = "";
+  document.getElementById("msgInput").value = "Chatbot is in progress";
 }
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
+</script>
 </script>
 
 </body>
