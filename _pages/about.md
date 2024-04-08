@@ -154,6 +154,7 @@ For more info
 Check my LinkedIn account: ([Link](https://www.linkedin.com/in/shima-rashidiiiiiii/))
 
 
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -235,7 +236,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <body>
 
 <h2>Popup Chat Window</h2>
-<p>If you want to chat with the bot version of Shima, click on the chat botton on the lower right corner.</p>
+<p>If you want to chat with the bot version of Shima, click on the chat botton on the lower right.</p>
 <p>The Chatbot is using an LLM model, RAG and Faiss to retrieve information from my CV and portfolio.</p>
 <p>Developed by me as a showcase of RAG-based LLM models :) .</p>
 
@@ -256,18 +257,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
-}
-
-function sendMessage(event) {
-  event.preventDefault(); // Prevent the default form submission
-  
-  // Get the message from the textarea
-  var message = document.getElementById("msgInput").value;
-  
-  // Do something with the message, for example, send it via AJAX to a server
-  
-  // Clear the textarea
-  document.getElementById("msgInput").value = "Chatbot is in progress";
 }
 
 function closeForm() {
