@@ -9,6 +9,15 @@ redirect_from:
 
 {% include base_path %}
 
+A data scientist/machine learning engineer with a Ph.D. in Computer Science,
+specialized in leading and development of cutting-edge projects. Utilizing advanced
+MLops, statistical modeling, machine learning, and data analysis techniques to
+extract actionable insights and implement data-driven solutions in commercialized
+environments. Committed to data science and innovation in academia, actively
+publishing in prestigious conferences and journals like NeurIPS and Pattern
+Recognition.
+
+
 Work experience
 ======
 ### Senior Data Scientist, [AGL Energy](https://www.agl.com.au/about-agl) (October 2022 - April 2024)
@@ -19,7 +28,7 @@ Work experience
   * Conveying the results and driven insights to the stakeholders.
 
 **Achievements:**
-  * Improved multiple factors within AGL by initiating several Gen-Al proof of concepts and deployed them to production.
+  * Initiatiated several Gen-Al proof of concepts on knowledge retrieval for organization units and deployed them to production.
   * Achieved a 50% reduction of pilot-to-production duration by developing commercially viable in-house Python packages and toolkits aimed at enhancing team performance and streamlining the data science experience.
   * Decreased the MTTR (Mean Time to Resolve) of ML models' maintenance and support tickets by 70% through establishing logging and model monitoring pipelines.
   * Eliminated ingestion pipeline failures entirely by establishing a DataBricks feature store for the organization, integrating PySpark, MLOps stacks, asset bundles, and Unity catalogue.<br>
