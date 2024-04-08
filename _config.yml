@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Shima Rashidi, PHD"
+title                    : "Shima Rashidi"
 title_separator          : "-"
 name                     : &name "Shima Rashidi, PHD"
 description              : &description "Senior Data Scientist/ Machine learning Engineer"
@@ -31,6 +31,7 @@ author:
   email            : "Shima.rashidi7@gmail.com" 
 
   # Academic websites
+  github           : "rashidis"
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=Kq7qrmwAAAAJ&hl=en&oi=ao"
   impactstory      : # URL
@@ -42,7 +43,6 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "rashidis"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
