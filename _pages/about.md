@@ -258,10 +258,6 @@ function openForm() {
   document.getElementById("myForm").style.display = "block";
 }
 
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-}
-
 function sendMessage(event) {
   event.preventDefault(); // Prevent the default form submission
   
@@ -277,7 +273,6 @@ function sendMessage(event) {
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
 }
-</script>
 </script>
 
 </body>
