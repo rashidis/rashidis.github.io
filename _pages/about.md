@@ -154,7 +154,6 @@ For more info
 Check my LinkedIn account: ([Link](https://www.linkedin.com/in/shima-rashidiiiiiii/))
 
 
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -255,8 +254,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
 </div>
 
 <script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
+function sendMessage(event) {
+  event.preventDefault(); // Prevent the default form submission
+  
+  // Get the message from the textarea
+  var message = document.getElementById("msgInput").value;
+  
+  // Do something with the message, for example, send it via AJAX to a server
+  
+  // Clear the textarea
+  document.getElementById("msgInput").value = "";
 }
 
 function closeForm() {
