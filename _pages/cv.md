@@ -56,8 +56,6 @@ Skills
 * Soft Skills: Stakeholder Management, Critical Thinking, Agile Mindset, Teamwork.
 
 
-======
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
