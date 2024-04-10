@@ -222,8 +222,7 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
   opacity: 0.8;
 }
 
-/* Add a red background color to the cancel button */
-.form-container .cancel {
+.form-container input[type='reset'] {
   background-color: red;
 }
 
@@ -263,17 +262,13 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
     <textarea id="msgInput" placeholder="Type message.." name="msg" required></textarea>
 
     <button type="submit" class="btn">Send</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    <input type="reset" value="Reset" />
   </form>
 </div>
 
 <script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
-}
-
-function closeForm() {
-  document.getElementById("myForm").style.display = "none";
 }
 
 function sendMessage(event) {
