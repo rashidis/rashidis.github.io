@@ -154,7 +154,6 @@ For more info
 Check my LinkedIn account: ([Link](https://www.linkedin.com/in/shima-rashidiiiiiii/))
 
 
-<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -195,13 +194,13 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width textarea */
 .form-container textarea {
-  width: 100%;
+  width: 120%;
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
   background: #f1f1f1;
   resize: none;
-  min-height: 200px;
+  min-height: 50px;
 }
 
 /* When the textarea gets focus, do something */
@@ -234,8 +233,12 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Style for chat history */
 #chatHistory {
+  border: 1px solid #ccc; /* Add border */
+  height: 200px; /* Set fixed height */
+  overflow-y: auto; /* Enable vertical scrollbar when content exceeds height */
   margin-bottom: 10px;
 }
+
 </style>
 </head>
 <body>
