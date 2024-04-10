@@ -262,7 +262,7 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
     <textarea id="msgInput" placeholder="Type message.." name="msg" required></textarea>
 
     <button type="submit" class="btn">Send</button>
-    <input type="reset" value="Reset" />
+    <button type="reset" value="Reset" />
   </form>
 </div>
 
