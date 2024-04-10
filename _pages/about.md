@@ -242,12 +242,12 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
 }
 
 .clear-button {
-  background-color: #f44336;
+  background-color: orange; /* Changed color to orange */
   color: white;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: calc(50% - 5px); /* Adjusted width */
+  width: calc(28% - 5px); /* Adjusted width */
   margin-bottom:10px;
   opacity: 0.8;
   float: left; /* Added to align buttons side by side */
