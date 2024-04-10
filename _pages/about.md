@@ -222,7 +222,8 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
   opacity: 0.8;
 }
 
-.form-container input[type='reset'] {
+/* Add a red background color to the cancel button */
+.form-container .cancel {
   background-color: red;
 }
 
@@ -262,13 +263,17 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
     <textarea id="msgInput" placeholder="Type message.." name="msg" required></textarea>
 
     <button type="submit" class="btn">Send</button>
-    <button type="reset" value="Reset" />
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
 
 <script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
 }
 
 function sendMessage(event) {
@@ -287,17 +292,7 @@ function appendMessage(message) {
   messageElement.textContent = message;
   chatHistory.appendChild(messageElement);
 }
-// JavaScript to dynamically change reset button color
-window.addEventListener('DOMContentLoaded', function () {
-    // Select reset buttons within elements with class "form-container"
-    var resetButtons = document.querySelectorAll('.form-container input[type="reset"]');
-    
-    // Loop through each reset button
-    resetButtons.forEach(function (button) {
-        // Change background color to red
-        button.style.backgroundColor = 'red';
-    });
-});
+
 </script>
 
 </body>
