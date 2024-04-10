@@ -270,11 +270,11 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
-  clearChatHistory();
 }
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
+  clearChatHistory();
 }
 
 function sendMessage(event) {
