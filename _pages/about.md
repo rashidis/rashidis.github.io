@@ -274,7 +274,6 @@ function openForm() {
 
 function closeForm() {
   document.getElementById("myForm").style.display = "none";
-  clearChatHistory();
 }
 
 function sendMessage(event) {
