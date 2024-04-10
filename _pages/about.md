@@ -217,9 +217,10 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: calc(50% - 5px); /* Adjusted width */
   margin-bottom:10px;
   opacity: 0.8;
+  float: left; /* Added to align buttons side by side */
 }
 
 /* Add a red background color to the cancel button */
@@ -246,9 +247,10 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: 100%;
+  width: calc(50% - 5px); /* Adjusted width */
   margin-bottom:10px;
   opacity: 0.8;
+  float: left; /* Added to align buttons side by side */
 }
 
 .clear-button:hover {
@@ -278,8 +280,8 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
     <textarea id="msgInput" placeholder="Type message.." name="msg" required></textarea>
 
     <button type="submit" class="btn">Send</button>
-    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
     <button type="button" class="btn clear-button" onclick="clearChat()">Clear</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
 </div>
 
