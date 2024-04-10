@@ -241,7 +241,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 </style>
 </head>
-<body onload="appendWelcomeMessage()">
+<body>
 
 <h2>Popup Chat Window</h2>
 <p>If you want to chat with the bot version of Shima, click on the chat button on the lower right.</p>
@@ -256,7 +256,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
     <div id="chatHistory">
       <!-- Default welcome message -->
-      <p>Welcome to the chat! How can I assist you today?</p>
+      <p>Welcome to the chat with AI-Shima! How can I assist you today?</p>
     </div>
 
     <label for="msg"><b>Message</b></label>
@@ -293,12 +293,6 @@ function appendMessage(message) {
   chatHistory.appendChild(messageElement);
 }
 
-function appendWelcomeMessage() {
-  var chatHistory = document.getElementById("chatHistory");
-  var welcomeMessage = document.createElement("p");
-  welcomeMessage.textContent = "Welcome to the chat! How can I assist you today?";
-  chatHistory.appendChild(welcomeMessage);
-}
 </script>
 
 </body>
