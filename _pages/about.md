@@ -270,6 +270,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 <script>
 function openForm() {
   document.getElementById("myForm").style.display = "block";
+  clearChatHistory();
 }
 
 function closeForm() {
@@ -293,6 +294,12 @@ function appendMessage(message) {
   chatHistory.appendChild(messageElement);
 }
 
+function clearChatHistory() {
+  var chatHistory = document.getElementById("chatHistory");
+  chatHistory.innerHTML = ''; // Clear chat history
+  // Append welcome message
+  appendMessage("Welcome to the chat with AI-Shima! How can I assist you today?");
+}
 </script>
 
 </body>
