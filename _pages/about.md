@@ -153,6 +153,7 @@ For more info
 ------
 Check my LinkedIn account: ([Link](https://www.linkedin.com/in/shima-rashidiiiiiii/))
 
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -201,7 +202,6 @@ body {font-family: Arial, Helvetica, sans-serif;}
   background: #f1f1f1;
   resize: none;
   min-height: 200px;
-  overflow-y: auto; /* Enable vertical scrollbar when content exceeds height */
 }
 
 /* When the textarea gets focus, do something */
@@ -249,8 +249,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <label for="msg"><b>Message</b></label>
     <textarea id="msgInput" placeholder="Type message.." name="msg" required></textarea>
 
-    <!-- Chat history display within the textarea -->
-    <textarea id="chatHistory" readonly></textarea>
+    <div id="chatHistory"></div>
 
     <button type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
@@ -278,10 +277,14 @@ function sendMessage(event) {
 
 function appendMessage(message) {
   var chatHistory = document.getElementById("chatHistory");
-  chatHistory.value += message + "\n"; // Append message to the chat history textarea
+  var messageElement = document.createElement("p");
+  messageElement.textContent = message;
+  chatHistory.appendChild(messageElement);
 }
 </script>
 
 
 </body>
 </html>
+
+
