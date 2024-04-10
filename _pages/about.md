@@ -154,6 +154,7 @@ For more info
 Check my LinkedIn account: ([Link](https://www.linkedin.com/in/shima-rashidiiiiiii/))
 
 
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -248,6 +249,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
     <label for="msg"><b>Message</b></label>
     <textarea id="msgInput" placeholder="Type message.." name="msg" required></textarea>
 
+    <div id="chatHistory"></div>
+
     <button type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
   </form>
@@ -273,13 +276,13 @@ function sendMessage(event) {
 }
 
 function appendMessage(message) {
-  var msgInput = document.getElementById("msgInput");
-  msgInput.value += message + "\n";
+  var chatHistory = document.getElementById("chatHistory");
+  var messageElement = document.createElement("p");
+  messageElement.textContent = message;
+  chatHistory.appendChild(messageElement);
 }
 </script>
 
 
 </body>
 </html>
-
-
