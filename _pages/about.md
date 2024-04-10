@@ -293,11 +293,6 @@ function appendMessage(message) {
   chatHistory.appendChild(messageElement);
 }
 
-function clearChatHistory() {
-  var chatHistory = document.getElementById("chatHistory");
-  chatHistory.innerHTML = ''; // Clear chat history
-}
-
 </script>
 
 </body>
