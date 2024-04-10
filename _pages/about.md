@@ -287,7 +287,17 @@ function appendMessage(message) {
   messageElement.textContent = message;
   chatHistory.appendChild(messageElement);
 }
-
+// JavaScript to dynamically change reset button color
+window.addEventListener('DOMContentLoaded', function () {
+    // Select reset buttons within elements with class "form-container"
+    var resetButtons = document.querySelectorAll('.form-container input[type="reset"]');
+    
+    // Loop through each reset button
+    resetButtons.forEach(function (button) {
+        // Change background color to red
+        button.style.backgroundColor = 'red';
+    });
+});
 </script>
 
 </body>
