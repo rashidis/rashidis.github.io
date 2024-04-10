@@ -217,10 +217,9 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: calc(50% - 5px); /* Adjusted width */
+  width: 100%;
   margin-bottom:10px;
   opacity: 0.8;
-  float: left; /* Added to align buttons side by side */
 }
 
 /* Add a red background color to the cancel button */
@@ -242,15 +241,14 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
 }
 
 .clear-button {
-  background-color: orange; /* Changed color to orange */
+  background-color: #f44336;
   color: white;
   padding: 16px 20px;
   border: none;
   cursor: pointer;
-  width: calc(28% - 5px); /* Adjusted width */
+  width: 100%;
   margin-bottom:10px;
   opacity: 0.8;
-  float: left; /* Added to align buttons side by side */
 }
 
 .clear-button:hover {
