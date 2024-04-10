@@ -154,6 +154,7 @@ For more info
 Check my LinkedIn account: ([Link](https://www.linkedin.com/in/shima-rashidiiiiiii/))
 
 
+<!DOCTYPE html>
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -194,7 +195,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* Full-width textarea */
 .form-container textarea {
-  width: 120%;
+  width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
@@ -238,10 +239,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
   overflow-y: auto; /* Enable vertical scrollbar when content exceeds height */
   margin-bottom: 10px;
 }
-
 </style>
 </head>
-<body>
+<body onload="appendWelcomeMessage()">
 
 <h2>Popup Chat Window</h2>
 <p>If you want to chat with the bot version of Shima, click on the chat button on the lower right.</p>
@@ -254,7 +254,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <form action="#" class="form-container" onsubmit="sendMessage(event)">
     <h1>Chat</h1>
 
-    <div id="chatHistory"></div>
+    <div id="chatHistory">
+      <!-- Default welcome message -->
+      <p>Welcome to the chat! How can I assist you today?</p>
+    </div>
 
     <label for="msg"><b>Message</b></label>
     <textarea id="msgInput" placeholder="Type message.." name="msg" required></textarea>
@@ -288,6 +291,13 @@ function appendMessage(message) {
   var messageElement = document.createElement("p");
   messageElement.textContent = message;
   chatHistory.appendChild(messageElement);
+}
+
+function appendWelcomeMessage() {
+  var chatHistory = document.getElementById("chatHistory");
+  var welcomeMessage = document.createElement("p");
+  welcomeMessage.textContent = "Welcome to the chat! How can I assist you today?";
+  chatHistory.appendChild(welcomeMessage);
 }
 </script>
 
