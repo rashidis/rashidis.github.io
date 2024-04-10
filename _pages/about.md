@@ -158,7 +158,7 @@ Check my LinkedIn account: ([Link](https://www.linkedin.com/in/shima-rashidiiiii
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial, Helvetica, sans-serif; font-size: 12px;}
+body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
 * {box-sizing: border-box;}
 
 /* Button used to open the chat form - fixed at the bottom of the page */
@@ -297,9 +297,6 @@ function appendMessage(message) {
 function clearChatHistory() {
   var chatHistory = document.getElementById("chatHistory");
   chatHistory.innerHTML = ''; // Clear chat history
-  var welcomeMessage = document.createElement("p");
-  welcomeMessage.textContent = "Welcome to the chat with AI-Shima! How can I assist you today?";
-  chatHistory.appendChild(welcomeMessage);
 }
 
 </script>
