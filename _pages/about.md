@@ -311,7 +311,7 @@ function appendMessage(message) {
 
 function clearChat() {
   document.getElementById("chatHistory").innerHTML = '';
-  document.getElementById("msgInput").value = ''; // Clear text area
+  document.getElementById("msgInput").value = '';
   appendMessage("Welcome to the chat with AI-Shima! How can I assist you today?");
 }
 
