@@ -273,8 +273,9 @@ function openForm() {
 }
 
 function closeForm() {
-  document.getElementById("myForm").style.display = "none";
-  clearChatHistory()
+  var form = document.getElementById("myForm");
+  form.style.display = "none";
+  form.reset(); // Reset the form
 }
 
 function sendMessage(event) {
@@ -292,14 +293,6 @@ function appendMessage(message) {
   var messageElement = document.createElement("p");
   messageElement.textContent = message;
   chatHistory.appendChild(messageElement);
-}
-
-function clearChatHistory() {
-  var chatHistory = document.getElementById("chatHistory");
-  // Remove all child nodes
-  while (chatHistory.firstChild) {
-    chatHistory.removeChild(chatHistory.firstChild);
-  }
 }
 </script>
 
