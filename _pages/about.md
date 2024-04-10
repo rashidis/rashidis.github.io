@@ -297,9 +297,11 @@ function appendMessage(message) {
 function clearChatHistory() {
   var chatHistory = document.getElementById("chatHistory");
   chatHistory.innerHTML = ''; // Clear chat history
-  // Append welcome message
-  appendMessage("Welcome to the chat with AI-Shima! How can I assist you today?");
+  var welcomeMessage = document.createElement("p");
+  welcomeMessage.textContent = "Welcome to the chat with AI-Shima! How can I assist you today?";
+  chatHistory.appendChild(welcomeMessage);
 }
+
 </script>
 
 </body>
