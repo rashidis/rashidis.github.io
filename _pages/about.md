@@ -231,14 +231,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
 }
+
+/* Style for chat history */
+#chatHistory {
+  margin-bottom: 10px;
+}
 </style>
 </head>
 <body>
 
 <h2>Popup Chat Window</h2>
-<p>If you want to chat with the bot version of Shima, click on the chat botton on the lower right.</p>
+<p>If you want to chat with the bot version of Shima, click on the chat button on the lower right.</p>
 <p>The Chatbot is using an LLM model, RAG and Faiss to retrieve information from my CV and portfolio.</p>
-<p>Developed by me as a showcase of RAG-based LLM models :) .</p>
+<p>Developed by me as a showcase of RAG-based LLM models :).</p>
 
 <button class="open-button" onclick="openForm()">Chat with Shima</button>
 
@@ -246,10 +251,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
   <form action="#" class="form-container" onsubmit="sendMessage(event)">
     <h1>Chat</h1>
 
+    <div id="chatHistory"></div>
+
     <label for="msg"><b>Message</b></label>
     <textarea id="msgInput" placeholder="Type message.." name="msg" required></textarea>
-
-    <div id="chatHistory"></div>
 
     <button type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
@@ -282,7 +287,6 @@ function appendMessage(message) {
   chatHistory.appendChild(messageElement);
 }
 </script>
-
 
 </body>
 </html>
