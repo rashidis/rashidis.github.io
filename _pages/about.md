@@ -239,6 +239,21 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
   overflow-y: auto; /* Enable vertical scrollbar when content exceeds height */
   margin-bottom: 10px;
 }
+
+.clear-button {
+  background-color: #f44336;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+.clear-button:hover {
+  opacity: 1;
+}
 </style>
 </head>
 <body>
@@ -264,6 +279,7 @@ body {font-family: Arial, Helvetica, sans-serif; font-size: 14px;}
 
     <button type="submit" class="btn">Send</button>
     <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    <button type="button" class="btn clear-button" onclick="clearChat()">Clear</button>
   </form>
 </div>
 
@@ -291,6 +307,10 @@ function appendMessage(message) {
   var messageElement = document.createElement("p");
   messageElement.textContent = message;
   chatHistory.appendChild(messageElement);
+}
+
+function clearChat() {
+  document.getElementById("chatHistory").innerHTML = '';
 }
 
 </script>
