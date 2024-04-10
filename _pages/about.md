@@ -273,9 +273,9 @@ function openForm() {
 }
 
 function closeForm() {
-  // document.getElementById("myForm").style.display = "none";
-  var form = document.getElementById("myForm");
-  form.style.display = "none";
+  document.getElementById("myForm").style.display = "none";
+  // var form = document.getElementById("myForm");
+  // form.style.display = "none";
 }
 
 function sendMessage(event) {
