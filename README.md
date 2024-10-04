@@ -18,6 +18,22 @@ Academic Pages is a Github Pages template for academic websites.
 
 See more info at https://academicpages.github.io/
 
+### If your github page is not searchable in google
+
+If your github page is not searchable in google, follow the steps to Add Your GitHub Repository to Google Search Console
+
+1. Go to the [Google Search Console](https://search.google.com/search-console) website and sign in with your Google account.
+  
+2. Click **"Add a property"** and enter the URL of your GitHub repository. For example, if your repository is located at `github.com/username/repo`, enter `name_of_user.github.io/name_of_page/`.
+
+3. Follow the verification steps to prove that you own the repository.
+
+4. After verifying ownership, click on **"URL Inspection"** in the left sidebar and type in the URL of your GitHub repository.
+
+5. Click **"Request indexing"** to tell Google to index your repository.
+
+
+
 ## Running Locally
 
 When you are initially working your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
@@ -26,7 +42,6 @@ When you are initially working your website, it is very useful to be able to pre
 1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
 1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
 1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-
 
 # Maintenance 
 
